@@ -1,1 +1,57 @@
-/* style of the game */
+.container{
+	background-color: #d0d6e0;
+	
+}
+
+#titleHead{
+	font-family: Cambria, Georgia, serif;
+	font-weight: bold;
+
+}
+body,
+h3{
+	text-align: left;
+	background-color: #d0d6e0;
+	font-family: Cambria, Georgia, serif;
+	margin-top: 0;
+}
+
+.intro{
+    margin-bottom: 10px;
+    font: 35px;
+    color: black;
+    font-family: Cambria, Georgia, serif;
+    background-color: #d0d6e0;
+}
+
+.click{
+  width:80px;
+  height:80px;
+}
+
+.row1{
+	font-family: Cambria, Georgia, serif;
+	font-weight: bold;
+}
+
+.row4 {
+  background-color: #d0d6e0;
+  color: black;
+  font: 25px;
+  margin-bottom: 50px;
+}
+
+.score {
+	font-size: 30px;
+	background-color: #d0d6e0;
+	font-family: Cambria, Georgia, serif;
+}
+
+.random,
+.results,
+.finalScore,
+h3 {
+	font-size: 30px;
+	background-color: #d0d6e0;
+	font-family: Cambria, Georgia, serif;
+}

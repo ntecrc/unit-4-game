@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<title>Infinity Stones Collector</title>
+
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
 </head>
 <body>
-    
+
+	
+		<div class = "row1">
+			<h1 class = "header" id= "titleHead">Infinity Stones Collector!!</h1>
+		</div>
+
+		<div class = "row2">
+			<div class = "intro"> 
+				<h2>Game instructions: </h2><br>
+				<h3>
+					A random number will be shown at the start of the game. <br><br>
+					The gems at the bottom each have random values, with a click of any gem you will get a random number thats added to your score.<br><br>
+					You can only win if your score matches the starting random number, exceed the computers number and you lose the game<br><br>
+					Everytime the game restarts the crystals number changes and so does the random number given at the beginning<br><br>
+					Test your might!<br>
+				</h3>
+			</div>
+
+		</div>
+
+		<div class = "row3">
+			<div class = "col-sm-12">
+				<img src="assets/images/gem1.png" class="click" id="crystal1" width="80px" height="80px">
+                <br>
+                <img src="assets/images/gem2.png" class="click" id="crystal2" width="80px" height="80px">
+                <br>
+                <img src="assets/images/gem3.png" class="click" id="crystal3" width="80px" height="80px">
+                <br>
+                <img src="assets/images/gem4.png" class="click" id="crystal4" width="80px" height="80px">
+			</div>
+
+		</div>
+
+		<div class = "row4">
+			<div class = "col-lg-4">
+				<div class = "random"> Random Number is: </div>
+			</div>
+
+			<div class = "col-lg-4">
+				<div class = "results">
+					<h3>
+						Wins: <div id = "wins"></div>
+						Losses: <div id = "losses"></div>
+					</h3>
+				</div>
+			</div>
+
+			<div class = "col-lg-4">
+				<div class = "socre">
+					<h3>
+						Score: <!-- <div class = "socre"></div> -->
+					</h3>
+				</div>
+
+			</div>
+		 	<div class = "score"></div>
+		</div>
+
+		<div class="footer">
+        <div class="row">
+            <div class="col-md-12">
+                <footer>
+                    &copy; Copyright 2018 Roberto Gonzalez
+                </footer>
+            </div>
+	     </div>
+	
+
+
+	
+
+	
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<script src="assets/javascript/game.js"></script>
+
+	
 </body>
 </html>
